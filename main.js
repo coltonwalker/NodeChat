@@ -6,7 +6,7 @@ $(document).ready(function () {
     var name;
     $('#pass-enter').click(function(){
         var password = $('#pass-input');
-        var realpassword = 'dopemen';
+        var realpassword = 'walker';
         var pwd = password.val().trim();
         if (password.val().trim() === realpassword){
             $('#user-name').prop('disabled', false);
